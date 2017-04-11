@@ -1,0 +1,12 @@
+---
+environment:
+  - name: "dev"
+    apps:
+    - name: "mysite-1"
+      version: "0.0.1-dev"
+      instances: 2
+      network: "private1"
+    - name: "mysite-2"
+      version: "1.0.0"
+      instances: 2
+      network: "public"
