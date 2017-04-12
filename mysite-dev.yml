@@ -3,10 +3,10 @@ product:
   environment: dev
   apps:
   - name: "app"
-    version: "3.0.3"
+    version: "3.0.4"
     instances: 2
     network: "private1"
   - name: "loadbalancer"
-    version: "2.0.0"
+    version: "3.0.0"
     instances: 2
     network: "public"
